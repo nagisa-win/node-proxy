@@ -1,0 +1,29 @@
+{
+  "name": "node-proxy",
+  "module": "src/app.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "github.com/nagisa-win/node-proxy.git"
+  },
+  "scripts": {
+    "start": "bun run src/app.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0"
+  },
+  "engines": {
+    "bun": "latest"
+  },
+  "packageManager": "bun@1.1.1"
+}
